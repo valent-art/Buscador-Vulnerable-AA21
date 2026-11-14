@@ -1,8 +1,9 @@
 <?php
 // Configuración de credenciales del servidor MySQL$ [cite: 74] [cite: 117]host    = 'localhost';
+$host    = 'localhost';
 $db      = 'clase_backend';
 $user    = 'root';
-$pass    = 'root';
+$pass    = '';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
